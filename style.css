@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0cqh;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    /* background-color: crimson; */
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateY(-50%);
+    animation: movecar 5s linear infinite;
+    
+
+}
+
+.abc{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@keyframes movecar {
+
+   0% {
+         left: 0;
+    }
+    50% {
+        left: 50%;
+   }
+   100% {
+    left: 100%;
+}
+    
+}
+
+
+.left{
+    height: 80px;
+    width: 80px;
+    /* background-color: crimson; */
+    margin-left: 88px;
+    position: absolute;
+    left: 0;
+    top: 59%;
+    transform: rotateY(-50%);
+    animation: tyre 5s linear infinite;
+
+
+}
+
+.right{
+    height: 80px;
+    width: 80px;
+    margin-left: 327px;
+    /* background-color: crimson; */
+    position: absolute;
+    left: 0;
+    top: 59%;
+    transform: rotateY(-50%);
+    animation: tyre 5s linear infinite;
+
+}
+
+@keyframes tyre {
+   
+
+
+    0% {
+        left: 0;
+   }
+   50% {
+       left: 50%;
+  }
+  100% {
+   left: 100%;
+   
+}
+   100% {
+    transform: rotate(360deg);
+}
+
+
+} 
+
+
+
